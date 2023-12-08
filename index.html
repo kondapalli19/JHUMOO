@@ -7,47 +7,49 @@
     <title>JHUMOO</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="icon" href="LOGOO.png" />
+    <link rel="icon" href="Images/icons/logo.png" />
 </head>
 <body>
     <section id="header">
-        <a href="#"><img src="jhumoo.png" alt="" class="logo"></a>
+        <a href="#"><img src="Images/icons/logo.png" alt="" class="logo"></a>
         <div>
             <ul id="nav-bar">
                 <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="shop.html">Shop</a></li>
-                <li><a href="blog.html">Blog</a></li>
+                <li><a href="song.html">Songs</a></li>
+                <li><a href="artist.html">Artists</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <li id="userid" class="user"><a href="login.html"><i class="fas fa-user-circle"></i></a></li>
                 <a href="#" id="close"><i class="fas fa-times"></i></a>
             </ul>
         </div>
         <div id="mobile">
-            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <a href="login.html"><i class="fas fa-user-circle"></i></a>
             <i id="bar" class="fas fa-outdent"></i>
         </div>
     </section>
 
     <section id="hero">
         <div class="main-bg">
+            <div class="container">
             <div class="circle">
                 <div class="circle1">
                     <div class="circle2">
                         <div class="circle3">
                             <div class="circle4">
-                                <h1>JHUMOO</h1>
+                                <h1 id="Head">JHUMOO</h1>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
             <h1 class="headline">
                 JHUMOO : <span>The perfect blend of music for you.</span>
             </h1>
-            <h3 class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi praesentium consectetur consequatur dicta nihil vel officiis, fugit at id laboriosam?</h3>
-            <button class="normal">Get Started</button>
-            <button class="white">Learn More</button>
+            <h3 class="para">Jhumoo, a personalized and engaging music streaming service, allows you to create playlists, login/logout, and set customized lyrics as ringtones.</h3>
+            <button class="normal" id="openLogin">Get Started</button>
+            <button class="white"  id="openAbout">Learn More</button>
         </div>
     </section>
 
@@ -56,7 +58,7 @@
             <h2>24/7 MUSIC</h2>
             <h3>Endless beats, all hours.</h3>
         </div>
-        <div class="banner-box banner-box2">
+        <div class="banner-box banner-box2" >
             <h2>CREATE YOUR OWN MUSIC</h2>
             <h3>Lunar whispers, drumbeat soul.</h3>
         </div>
@@ -70,8 +72,8 @@
         <h2>Featured Songs</h2>
         <p>Popular Songs with million+ views</p>
         <div class="pro-container">
-            <div class="pro" onclick="window.location.href='sproduct.html'">
-                <img src="song4.jpg" alt="no preview available">
+            <div class="pro">
+                <img src="Images/Song/song4.jpg" alt="no preview available">
                 <div class="des">
                     <span>Tones and I</span>
                     <h5>Dance Monkey</h5>
@@ -83,10 +85,10 @@
                     </div>
                     <h4>377M+</h4>
                 </div>
-                <a href="#"><i class="fa-solid fa-play play"></i></a>
+                <a href="#" id="playButton"><i class="fa-solid fa-play play"></i></a>
             </div>
-            <div class="pro" onclick="window.location.href='sproduct.html'">
-                <img src="song2.jpg" alt="no preview available" class="size1">
+            <div class="pro">
+                <img src="Images/Song/song2.jpg" alt="no preview available" class="size1">
                 <div class="des">
                     <span>Riaz-Ur-Rehman Saghar</span>
                     <h5>Lift Karadey</h5>
@@ -101,8 +103,8 @@
                 </div>
                 <a href="#"><i class="fa-solid fa-play play"></i></a>
             </div>
-            <div class="pro" onclick="window.location.href='sproduct.html'">
-                <img src="song8.jpg" alt="no preview available">
+            <div class="pro">
+                <img src="Images/Song/song8.jpg" alt="no preview available">
                 <div class="des">
                     <span>A. R. Rahman</span>
                     <h5>Hosanna</h5>
@@ -116,8 +118,8 @@
                 </div>
                 <a href="#"><i class="fa-solid fa-play play"></i></a>
             </div>
-            <div class="pro" onclick="window.location.href='sproduct.html'">
-                <img src="song5.jpg" alt="no preview available" class="size1">
+            <div class="pro">
+                <img src="Images/Song/song5.jpg" alt="no preview available" class="size1">
                 <div class="des">
                     <span>Nikhil Dhirangi</span>
                     <h5>Phatela Jeb</h5>
@@ -131,7 +133,7 @@
                 <a href="#"><i class="fa-solid fa-play play"></i></a>
             </div>
             <div class="pro" onclick="window.location.href='sproduct.html'">
-                <img src="song9.jpg" alt="no preview available">
+                <img src="Images/Song/song9.jpg" alt="no preview available">
                 <div class="des">
                     <span>Mukesh Kumar</span>
                     <h5>Kisi Ke Muskurahton Pe</h5>
@@ -146,7 +148,7 @@
                 <a href="#"><i class="fa-solid fa-play play"></i></a>
             </div>
             <div class="pro" onclick="window.location.href='sproduct.html'">
-                <img src="song6.jpg" alt="no preview available">
+                <img src="Images/Song/song6.jpg" alt="no preview available">
                 <div class="des">
                     <span>Gotye Ft. Kimbra</span>
                     <h5>Somebody that I used to know</h5>
@@ -161,7 +163,7 @@
                 <a href="#"><i class="fa-solid fa-play play"></i></a>
             </div>
             <div class="pro" onclick="window.location.href='sproduct.html'">
-                <img src="song7.jpg" alt="no preview available">
+                <img src="Images/Song/song7.jpg" alt="no preview available">
                 <div class="des">
                     <span>Chinmayi, Shekar Ravjiani</span>
                     <h5>Zehnaseeb</h5>
@@ -174,7 +176,7 @@
                 <a href="#"><i class="fa-solid fa-play play"></i></a>
             </div>
             <div class="pro" onclick="window.location.href='sproduct.html'">
-                <img src="song3.jpg" alt="no preview available">
+                <img src="Images/Song/song3.jpg" alt="no preview available">
                 <div class="des">
                     <span>Arijit Singh</span>
                     <h5>Satranga</h5>
@@ -192,11 +194,200 @@
     </section>
 
     <section id="banner" class="section-m1">
-        <h4>Repair Services</h4>
-        <h2>Up to <span>70% off</span> - All t-shirts & Accessories</h2>
-        <button class="bButton">Explore More</button>
+        <h4>Create your Own Playlist</h4>
+        <h2>With the popular <span>Artists and their hits</span> all in one in JHUMOO</h2>
+        <button class="bButton" id="openArtist">Explore More</button>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>New Arrivals</h2>
+        <p>Discover the next big hit.</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="Images/Song/song18.jpg" alt="no preview available">
+                <div class="des">
+                    <span>Bheems Cecirole</span>
+                    <h5>Pulsar Bike</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>150M+</h4>
+                </div>
+                <a href="#" id="playButton1"><i class="fa-solid fa-play play"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='sproduct.html'">
+                <img src="Images/Song/song12.jpg" alt="no preview available" class="size1">
+                <div class="des">
+                    <span>Dua Lipa</span>
+                    <h5>Dance the Night</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>4.7M+</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-play play"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='sproduct.html'">
+                <img src="Images/Song/song13.jpg" alt="no preview available">
+                <div class="des">
+                    <span>Tate McRae</span>
+                    <h5>Greedy</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>44M+</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-play play"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='sproduct.html'">
+                <img src="Images/Song/song15.jpg" alt="no preview available" class="size1">
+                <div class="des">
+                    <span>Siddharth B, Prakriti K</span>
+                    <h5>Hum aaye hain</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>21M+</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-play play"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='sproduct.html'">
+                <img src="Images/Song/song16.jpg" alt="no preview available">
+                <div class="des">
+                    <span>Relare Rela Raghu</span>
+                    <h5>Lingi Lingi Lingidi </h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>2M+</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-play play"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='sproduct.html'">
+                <img src="Images/Song/song14.jpg" alt="no preview available">
+                <div class="des">
+                    <span>Miley Cyrus</span>
+                    <h5>Flowers</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>1.16B+</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-play play"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='sproduct.html'">
+                <img src="Images/Song/song11.jpg" alt="no preview available">
+                <div class="des">
+                    <span>Arijit Singh, Shilpa Rao</span>
+                    <h5>Chaleya</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>75M+</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-play play"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='sproduct.html'">
+                <img src="Images/Song/song17.jpg" alt="no preview available">
+                <div class="des">
+                    <span>Karthik</span>
+                    <h5>Lady Luck</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>12M+</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-play play"></i></a>
+            </div>
+        </div>
     </section>
     
+    <section id="sm-banner" class="section-p1">
+        <div class="banner-box" onclick="window.location.href='artist.html'">
+            <h4>Virtual Concerts</h4>
+            <h2>Attend for free</h2>
+            <span>Join in your fav artist performance</span>
+            <button class="bButton">Learn More</button>
+        </div>
+        <div class="banner-box banner-box2" onclick="window.location.href='artist.html'">
+            <h4>New releases</h4>
+            <h2>Albums</h2>
+            <span>Hit album songs</span>
+            <button class="bButton">Collection</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img src="Images/icons/logo.png" alt="No preview available" class="logoin">
+            <h4>Contact</h4>
+            <p><strong>Email:</strong> kkoyal19599@gmail.com</p>
+            <p><strong>Twitter:</strong> https://twitter.com/KoyalKondapalli</p>
+            <p><strong>Github:</strong> https://github.com/kondapalli19</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="about.html">About Us</a>
+            <a href="song.html">Song Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View songs</a>
+            <a href="#">My Playlist</a>
+            <a href="#">Go to my page</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="Images/icons/app.png" alt="No preview available" class="sizefix1">
+                <img src="Images/icons/play.png" alt="No preview available" class="sizefix2">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="Images/icons/pay.png" alt="No preview available" class="sizefix">
+        </div>
+        <div class="copyright section-p1">
+            <p>© 2023, Listen Songs Endlessly on JHUMOO</p>
+        </div>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
