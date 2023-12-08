@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JHUMOO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="logo.png" />
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="logo.png" alt="" class="logo"></a>
+        <div>
+            <ul id="nav-bar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="song.html">Songs</a></li>
+                <li><a href="artist.html">Artists</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="userid"><a href="login.html"  class="active"><i class="fas fa-user-circle"></i></a></li>
+                <a href="#" id="close"><i class="fas fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fas fa-user-circle"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="page-header" class="log-header">
+        <h2>#LogIn</h2>
+        <p>Become a user and get all the benefits of JHUMOO</p>
+    </section>
+
+    <section id="login-details">  
+        <form class="form" action="/login" method="post">  
+            <div class="container1">   
+                <label>Username : </label>   
+                <input class="input" type="text" placeholder="Enter Username" name="username" required>  
+                <label>Password : </label>   
+                <input class="input" type="password" placeholder="Enter Password" name="password" required>  
+                <button type="submit" class="button">Login</button>   
+                <input  class="input" type="checkbox" checked="checked"> Remember me   
+                <button type="button" class="cancelbtn button"> Cancel</button>   
+                Forgot <a href="#"> password? </a>   
+            </div>   
+        </form>     
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img src="logo.png" alt="No preview available" class="logoin">
+            <h4>Contact</h4>
+            <p><strong>Email:</strong> kkoyal19599@gmail.com</p>
+            <p><strong>Twitter:</strong>https://twitter.com/KoyalKondapalli</p>
+            <p><strong>Github:</strong> https://github.com/kondapalli19</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Song Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View songs</a>
+            <a href="#">My Playlist</a>
+            <a href="#">Go to my page</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="app.png" alt="No preview available" class="sizefix1">
+                <img src="play.png" alt="No preview available" class="sizefix2">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="pay.png" alt="No preview available" class="sizefix">
+        </div>
+        <div class="copyright section-p1">
+            <p>© 2023, Listen Songs Endlessly on JHUMOO</p>
+        </div>
+    </footer>
+    <script src="RealApp.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
